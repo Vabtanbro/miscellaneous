@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+<style>
+    h1, h2, h3, h4, h5, h6 {
+  background: #D4D4D4;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  font-weight: normal;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+blockquote {
+  background: #E6F2E6;
+  border-left: 3px solid #408040;
+  font-style: italic;
+  padding-left: 5px;
+  margin-left: 2px;
+}
+pre {
+  background: #E0F0FF;
+  border-left: 5px solid #55AAFF;
+  padding: 5px;
+  margin-left: 2px;
+}
+code {
+  background: #E0F0FF;
+  font-family: JetBrains Mono NL, Courier New, Monospaced;
+  font-size: 0.9em;
+}
+table {
+  border-spacing: 0px;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+th, td {
+  border-left: 1px solid gray;
+  border-top: 1px solid gray;
+}
+th {
+  background: #D4D4D4;
+  font-weight: 600;
+}
+ul {
+  margin-left-ltr: 20px;
+  margin-right-rtl: 20px;
+}
+ol {
+  margin-left-ltr: 25px;
+  margin-right-rtl: 25px;
+}
+
+</style>
+
+
+<body>
+
+  <h1 id="hackerrank-api">hackerrank API</h1>
+  <h3 id="these-are-some-endpoint-form-where-we-can-get-the-data-of-user">These are some endpoint form where we can get the data of user.</h3>
+  <hr>
+  <ol>
+  <li><blockquote>
+  <p><a href="https://www.hackerrank.com/rest/contests/master/hackers/sonu22kumar22/profile">https://www.hackerrank.com/rest/contests/master/hackers/sonu22kumar22/profile</a></p>
+  </blockquote>
+  <details close>
+  <summary>JSON DATA</summary>
+  
+  <pre><code>       {
+         &quot;model&quot;: {
+             &quot;id&quot;: 490918,
+             &quot;username&quot;: &quot;sonu22kumar22&quot;,
+             &quot;country&quot;: &quot;India&quot;,
+             &quot;school&quot;: &quot;KIIT, Bhubaneswar (Kalinga Institute of Industrial Technology)&quot;,
+             &quot;languages&quot;: [],
+             &quot;created_at&quot;: &quot;2015-04-19T08:25:09.000Z&quot;,
+             &quot;level&quot;: 4,
+             &quot;is_admin&quot;: false,
+             &quot;support_admin&quot;: false,
+             &quot;avatar&quot;: &quot;https://hrcdn.net/s3_pub/hr-avatars/adf16e68-c356-4dae-9262-f76c384b824c/150x150.png&quot;,
+             &quot;website&quot;: &quot;&quot;,
+             &quot;short_bio&quot;: &quot;let&#39;s play the GAME..!!!&quot;,
+             &quot;username_change_count&quot;: &quot;&quot;,
+             &quot;name&quot;: &quot;Sonu Kumar&quot;,
+             &quot;personal_first_name&quot;: &quot;Sonu&quot;,
+             &quot;personal_last_name&quot;: &quot;Kumar&quot;,
+             &quot;company&quot;: &quot;&quot;,
+             &quot;local_language&quot;: &quot;English&quot;,
+             &quot;has_avatar_url&quot;: true,
+             &quot;hide_account_checklist&quot;: &quot;&quot;,
+             &quot;spam_user&quot;: &quot;&quot;,
+             &quot;job_title&quot;: &quot;&quot;,
+             &quot;jobs_headline&quot;: &quot;&quot;,
+             &quot;linkedin_url&quot;: &quot;https://in.linkedin.com/in/sonu-kumar-90796681&quot;,
+             &quot;github_url&quot;: &quot;&quot;,
+             &quot;self&quot;: false,
+             &quot;title&quot;: &quot;O(N&lt;sup&gt;2&lt;/sup&gt;)&quot;,
+             &quot;event_count&quot;: 3,
+             &quot;online&quot;: false,
+             &quot;is_following&quot;: false,
+             &quot;is_followed&quot;: false,
+             &quot;followers_count&quot;: 62
+         }
+         }
+  </code></pre>
+  </details>
+  
+  
+  </li>
+  <li><blockquote>
+  <p><a href="https://www.hackerrank.com/rest/hackers/sonu22kumar22/scores_elo">https://www.hackerrank.com/rest/hackers/sonu22kumar22/scores_elo</a></p>
+  </blockquote>
+  <details close>
+  <summary>JSON DATA</summary>
+  
+  <pre><code>    ```
+  [
+  {
+      &quot;track_id&quot;: 2,
+      &quot;name&quot;: &quot;Artificial Intelligence&quot;,
+      &quot;slug&quot;: &quot;ai&quot;,
+      &quot;practice&quot;: {
+      &quot;hacker_id&quot;: 490918,
+      &quot;score&quot;: 0,
+      &quot;rank&quot;: 125364,
+      &quot;location_on_leaderboard&quot;: []
+      },
+      &quot;contest&quot;: {
+      &quot;score&quot;: 0,
+      &quot;rank&quot;: &quot;N/A&quot;,
+      &quot;level&quot;: 5,
+      &quot;medals&quot;: {
+          &quot;gold&quot;: 0,
+          &quot;silver&quot;: 0,
+          &quot;bronze&quot;: 0
+      }
+      }
+  },
+  {
+      &quot;track_id&quot;: 3,
+      &quot;name&quot;: &quot;Algorithms&quot;,
+      &quot;slug&quot;: &quot;algorithms&quot;,
+      &quot;practice&quot;: {
+      &quot;hacker_id&quot;: 490918,
+      &quot;score&quot;: 1403.96,
+      &quot;rank&quot;: 73718,
+      &quot;location_on_leaderboard&quot;: []
+      },
+      &quot;contest&quot;: {
+      &quot;hacker_id&quot;: 490918,
+      &quot;score&quot;: 1528.67,
+      &quot;rank&quot;: 66463,
+      &quot;percentile&quot;: 63.64,
+      &quot;competitions&quot;: 2,
+      &quot;location_on_leaderboard&quot;: [],
+      &quot;level&quot;: 4,
+      &quot;medals&quot;: {
+          &quot;gold&quot;: 0,
+          &quot;silver&quot;: 1,
+          &quot;bronze&quot;: 0
+      }
+      }
+  },
+  {
+      &quot;track_id&quot;: 5,
+      &quot;name&quot;: &quot;Functional Programming&quot;,
+      &quot;slug&quot;: &quot;fp&quot;,
+      &quot;practice&quot;: {
+      &quot;hacker_id&quot;: 490918,
+      &quot;score&quot;: 0,
+      &quot;rank&quot;: 123992,
+      &quot;location_on_leaderboard&quot;: []
+      },
+      &quot;contest&quot;: {
+      &quot;score&quot;: 0,
+      &quot;rank&quot;: &quot;N/A&quot;,
+      &quot;level&quot;: 5,
+      &quot;medals&quot;: {
+          &quot;gold&quot;: 0,
+          &quot;silver&quot;: 0,
+          &quot;bronze&quot;: 0
+      }
+      }
+  },
+  {
+      &quot;track_id&quot;: 6,
+      &quot;name&quot;: &quot;Linux Shell&quot;,
+      &quot;slug&quot;: &quot;shell&quot;,
+      &quot;practice&quot;: {
+      &quot;hacker_id&quot;: 490918,
+      &quot;score&quot;: 1,
+      &quot;rank&quot;: 210522,
+      &quot;location_on_leaderboard&quot;: []
+      },
+      &quot;contest&quot;: {
+      &quot;score&quot;: 0,
+      &quot;rank&quot;: &quot;N/A&quot;,
+      &quot;level&quot;: 5,
+      &quot;medals&quot;: {
+          &quot;gold&quot;: 0,
+          &quot;silver&quot;: 0,
+          &quot;bronze&quot;: 0
+      }
+      }
+  },
+  {
+      &quot;track_id&quot;: 12,
+      &quot;name&quot;: &quot;Python&quot;,
+      &quot;slug&quot;: &quot;python&quot;,
+      &quot;practice&quot;: {
+      &quot;hacker_id&quot;: 490918,
+      &quot;score&quot;: 0,
+      &quot;rank&quot;: 2801087,
+      &quot;location_on_leaderboard&quot;: []
+      },
+      &quot;contest&quot;: {
+      &quot;score&quot;: 0,
+      &quot;rank&quot;: &quot;N/A&quot;,
+      &quot;level&quot;: 5,
+      &quot;medals&quot;: {
+          &quot;gold&quot;: 0,
+          &quot;silver&quot;: 0,
+          &quot;bronze&quot;: 0
+      }
+      }
+  },
+  {
+      &quot;track_id&quot;: 13,
+      &quot;name&quot;: &quot;C++&quot;,
+      &quot;slug&quot;: &quot;cpp&quot;,
+      &quot;practice&quot;: {
+      &quot;hacker_id&quot;: 490918,
+      &quot;score&quot;: 5,
+      &quot;rank&quot;: 1055274,
+      &quot;location_on_leaderboard&quot;: []
+      },
+      &quot;contest&quot;: {
+      &quot;score&quot;: 0,
+      &quot;rank&quot;: &quot;N/A&quot;,
+      &quot;level&quot;: 5,
+      &quot;medals&quot;: {
+          &quot;gold&quot;: 0,
+          &quot;silver&quot;: 0,
+          &quot;bronze&quot;: 0
+      }
+      }
+  },
+  {
+      &quot;track_id&quot;: 14,
+      &quot;name&quot;: &quot;Ruby&quot;,
+      &quot;slug&quot;: &quot;ruby&quot;,
+      &quot;practice&quot;: {
+      &quot;hacker_id&quot;: 490918,
+      &quot;score&quot;: 0,
+      &quot;rank&quot;: 93712,
+      &quot;location_on_leaderboard&quot;: []
+      },
+      &quot;contest&quot;: {
+      &quot;score&quot;: 0,
+      &quot;rank&quot;: &quot;N/A&quot;,
+      &quot;level&quot;: 5,
+      &quot;medals&quot;: {
+          &quot;gold&quot;: 0,
+          &quot;silver&quot;: 0,
+          &quot;bronze&quot;: 0
+      }
+      }
+  },
+  {
+      &quot;track_id&quot;: 15,
+      &quot;name&quot;: &quot;Java&quot;,
+      &quot;slug&quot;: &quot;java&quot;,
+      &quot;practice&quot;: {
+      &quot;hacker_id&quot;: 490918,
+      &quot;score&quot;: 45.78,
+      &quot;rank&quot;: 938275,
+      &quot;location_on_leaderboard&quot;: []
+      },
+      &quot;contest&quot;: {
+      &quot;score&quot;: 0,
+      &quot;rank&quot;: &quot;N/A&quot;,
+      &quot;level&quot;: 5,
+      &quot;medals&quot;: {
+          &quot;gold&quot;: 0,
+          &quot;silver&quot;: 0,
+          &quot;bronze&quot;: 0
+      }
+      }
+  },
+  {
+      &quot;track_id&quot;: 16,
+      &quot;name&quot;: &quot;Databases&quot;,
+      &quot;slug&quot;: &quot;databases&quot;,
+      &quot;practice&quot;: {
+      &quot;hacker_id&quot;: 490918,
+      &quot;score&quot;: 0,
+      &quot;rank&quot;: 235791,
+      &quot;location_on_leaderboard&quot;: []
+      },
+      &quot;contest&quot;: {
+      &quot;score&quot;: 0,
+      &quot;rank&quot;: &quot;N/A&quot;,
+      &quot;level&quot;: 5,
+      &quot;medals&quot;: {
+          &quot;gold&quot;: 0,
+          &quot;silver&quot;: 0,
+          &quot;bronze&quot;: 0
+      }
+      }
+  },
+  {
+      &quot;track_id&quot;: 17,
+      &quot;name&quot;: &quot;Data Structures&quot;,
+      &quot;slug&quot;: &quot;data-structures&quot;,
+      &quot;practice&quot;: {
+      &quot;hacker_id&quot;: 490918,
+      &quot;score&quot;: 133.2,
+      &quot;rank&quot;: 309247,
+      &quot;location_on_leaderboard&quot;: []
+      },
+      &quot;contest&quot;: {
+      &quot;score&quot;: 0,
+      &quot;rank&quot;: &quot;N/A&quot;,
+      &quot;level&quot;: 5,
+      &quot;medals&quot;: {
+          &quot;gold&quot;: 0,
+          &quot;silver&quot;: 0,
+          &quot;bronze&quot;: 0
+      }
+      }
+  },
+  {
+      &quot;track_id&quot;: 18,
+      &quot;name&quot;: &quot;SQL&quot;,
+      &quot;slug&quot;: &quot;sql&quot;,
+      &quot;practice&quot;: {
+      &quot;hacker_id&quot;: 490918,
+      &quot;score&quot;: 10,
+      &quot;rank&quot;: 1762288,
+      &quot;location_on_leaderboard&quot;: []
+      },
+      &quot;contest&quot;: {
+      &quot;score&quot;: 0,
+      &quot;rank&quot;: &quot;N/A&quot;,
+      &quot;level&quot;: 5,
+      &quot;medals&quot;: {
+          &quot;gold&quot;: 0,
+          &quot;silver&quot;: 0,
+          &quot;bronze&quot;: 0
+      }
+      }
+  },
+  {
+      &quot;track_id&quot;: 19,
+      &quot;name&quot;: &quot;Regex&quot;,
+      &quot;slug&quot;: &quot;regex&quot;,
+      &quot;practice&quot;: {
+      &quot;hacker_id&quot;: 490918,
+      &quot;score&quot;: 15,
+      &quot;rank&quot;: 80640,
+      &quot;location_on_leaderboard&quot;: []
+      },
+      &quot;contest&quot;: {
+      &quot;score&quot;: 0,
+      &quot;rank&quot;: &quot;N/A&quot;,
+      &quot;level&quot;: 5,
+      &quot;medals&quot;: {
+          &quot;gold&quot;: 0,
+          &quot;silver&quot;: 0,
+          &quot;bronze&quot;: 0
+      }
+      }
+  },
+  {
+      &quot;track_id&quot;: 20,
+      &quot;name&quot;: &quot;Security&quot;,
+      &quot;slug&quot;: &quot;security&quot;,
+      &quot;practice&quot;: {
+      &quot;hacker_id&quot;: 490918,
+      &quot;score&quot;: 0,
+      &quot;rank&quot;: 34471,
+      &quot;location_on_leaderboard&quot;: []
+      },
+      &quot;contest&quot;: {
+      &quot;score&quot;: 0,
+      &quot;rank&quot;: &quot;N/A&quot;,
+      &quot;level&quot;: 5,
+      &quot;medals&quot;: {
+          &quot;gold&quot;: 0,
+          &quot;silver&quot;: 0,
+          &quot;bronze&quot;: 0
+      }
+      }
+  },
+  {
+      &quot;track_id&quot;: 21,
+      &quot;name&quot;: &quot;Distributed Systems&quot;,
+      &quot;slug&quot;: &quot;distributed-systems&quot;,
+      &quot;practice&quot;: {
+      &quot;hacker_id&quot;: 490918,
+      &quot;score&quot;: 0,
+      &quot;rank&quot;: 46607,
+      &quot;location_on_leaderboard&quot;: []
+      },
+      &quot;contest&quot;: {
+      &quot;score&quot;: 0,
+      &quot;rank&quot;: &quot;N/A&quot;,
+      &quot;level&quot;: 5,
+      &quot;medals&quot;: {
+          &quot;gold&quot;: 0,
+          &quot;silver&quot;: 0,
+          &quot;bronze&quot;: 0
+      }
+      }
+  },
+  {
+      &quot;track_id&quot;: 22,
+      &quot;name&quot;: &quot;Mathematics&quot;,
+      &quot;slug&quot;: &quot;mathematics&quot;,
+      &quot;practice&quot;: {
+      &quot;hacker_id&quot;: 490918,
+      &quot;score&quot;: 146.82,
+      &quot;rank&quot;: 32061,
+      &quot;location_on_leaderboard&quot;: []
+      },
+      &quot;contest&quot;: {
+      &quot;hacker_id&quot;: 490918,
+      &quot;score&quot;: 1146.46,
+      &quot;rank&quot;: 12491,
+      &quot;percentile&quot;: 15.93,
+      &quot;competitions&quot;: 1,
+      &quot;location_on_leaderboard&quot;: [],
+      &quot;level&quot;: 5,
+      &quot;medals&quot;: {
+          &quot;gold&quot;: 0,
+          &quot;silver&quot;: 0,
+          &quot;bronze&quot;: 0
+      }
+      }
+  },
+  {
+      &quot;track_id&quot;: 24,
+      &quot;name&quot;: &quot;Tutorials&quot;,
+      &quot;slug&quot;: &quot;tutorials&quot;,
+      &quot;practice&quot;: {
+      &quot;hacker_id&quot;: 490918,
+      &quot;score&quot;: 0,
+      &quot;rank&quot;: 2228701,
+      &quot;location_on_leaderboard&quot;: []
+      },
+      &quot;contest&quot;: {
+      &quot;score&quot;: 0,
+      &quot;rank&quot;: &quot;N/A&quot;,
+      &quot;level&quot;: 5,
+      &quot;medals&quot;: {
+          &quot;gold&quot;: 0,
+          &quot;silver&quot;: 0,
+          &quot;bronze&quot;: 0
+      }
+      }
+  },
+  {
+      &quot;track_id&quot;: 26,
+      &quot;name&quot;: &quot;General Programming&quot;,
+      &quot;slug&quot;: &quot;general-programming&quot;,
+      &quot;practice&quot;: {
+      &quot;hacker_id&quot;: 490918,
+      &quot;score&quot;: 0,
+      &quot;rank&quot;: 1,
+      &quot;location_on_leaderboard&quot;: []
+      },
+      &quot;contest&quot;: {
+      &quot;score&quot;: 0,
+      &quot;rank&quot;: &quot;N/A&quot;,
+      &quot;level&quot;: 5,
+      &quot;medals&quot;: {
+          &quot;gold&quot;: 0,
+          &quot;silver&quot;: 0,
+          &quot;bronze&quot;: 0
+      }
+      }
+  },
+  {
+      &quot;track_id&quot;: 27,
+      &quot;name&quot;: &quot;C&quot;,
+      &quot;slug&quot;: &quot;c&quot;,
+      &quot;practice&quot;: {
+      &quot;hacker_id&quot;: 490918,
+      &quot;score&quot;: 0,
+      &quot;rank&quot;: 917028,
+      &quot;location_on_leaderboard&quot;: []
+      },
+      &quot;contest&quot;: {
+      &quot;score&quot;: 0,
+      &quot;rank&quot;: &quot;N/A&quot;,
+      &quot;level&quot;: 5,
+      &quot;medals&quot;: {
+          &quot;gold&quot;: 0,
+          &quot;silver&quot;: 0,
+          &quot;bronze&quot;: 0
+      }
+      }
+  },
+  {
+      &quot;track_id&quot;: 0,
+      &quot;name&quot;: &quot;General&quot;,
+      &quot;slug&quot;: &quot;general&quot;,
+      &quot;contest&quot;: {
+      &quot;hacker_id&quot;: 490918,
+      &quot;score&quot;: 91.60803085924249,
+      &quot;rank&quot;: 24323,
+      &quot;percentile&quot;: 87.02,
+      &quot;competitions&quot;: 0,
+      &quot;location_on_leaderboard&quot;: [],
+      &quot;level&quot;: 5,
+      &quot;medals&quot;: null
+      }
+  }
+  ]
+  </code></pre>
+  <pre><code>&lt;/details&gt;
+  </code></pre>
+  </li>
+  <li><blockquote>
+  <p><a href="https://www.hackerrank.com/community/v1/test_results/hacker_certificate?username=shashank21j">https://www.hackerrank.com/community/v1/test_results/hacker_certificate?username=shashank21j</a></p>
+  </blockquote>
+   <details close>
+   <summary>JSON DATA</summary>
+  
+  <pre><code>       {
+         &quot;data&quot;: [
+             {
+             &quot;id&quot;: &quot;fbe92d9107cf&quot;,
+             &quot;type&quot;: &quot;test_results&quot;,
+             &quot;links&quot;: {
+                 &quot;self&quot;: &quot;https://www.hackerrank.com/community/v1/test_results/fbe92d9107cf&quot;
+             },
+             &quot;attributes&quot;: {
+                 &quot;status&quot;: &quot;test_passed&quot;,
+                 &quot;username&quot;: &quot;shashank21j&quot;,
+                 &quot;unlock_date&quot;: null,
+                 &quot;waived_off&quot;: false,
+                 &quot;certificate&quot;: {
+                 &quot;track_slug&quot;: &quot;problem_solving_basic&quot;,
+                 &quot;label&quot;: &quot;Problem Solving&quot;,
+                 &quot;level&quot;: &quot;Basic&quot;,
+                 &quot;skill_unique_id&quot;: &quot;bbcecf90d4cd&quot;,
+                 &quot;description&quot;: &quot;It covers basic topics of Data Structures (such as Arrays, Strings) and Algorithms (such as Sorting and Searching).&quot;
+                 },
+                 &quot;certificates&quot;: [
+                 &quot;Problem Solving (Basic)&quot;
+                 ],
+                 &quot;certificate_image&quot;: &quot;https://downloads.hackerrank.com/certificates/fbe92d9107cf&quot;,
+                 &quot;hacker_name&quot;: &quot;Shashank Sharma&quot;,
+                 &quot;test_unique_id&quot;: &quot;33gp893pqhs&quot;,
+                 &quot;kind&quot;: &quot;awarded&quot;,
+                 &quot;hacker_name_updated_at&quot;: null,
+                 &quot;seen_by_user&quot;: true,
+                 &quot;completed_at&quot;: null,
+                 &quot;score&quot;: null,
+                 &quot;alloted_at&quot;: &quot;2020-09-15T09:34:03.000Z&quot;
+             }
+             },
+             {
+             &quot;id&quot;: &quot;1ada3aaf8a85&quot;,
+             &quot;type&quot;: &quot;test_results&quot;,
+             &quot;links&quot;: {
+                 &quot;self&quot;: &quot;https://www.hackerrank.com/community/v1/test_results/1ada3aaf8a85&quot;
+             },
+             &quot;attributes&quot;: {
+                 &quot;status&quot;: &quot;test_passed&quot;,
+                 &quot;username&quot;: &quot;shashank21j&quot;,
+                 &quot;unlock_date&quot;: null,
+                 &quot;waived_off&quot;: false,
+                 &quot;certificate&quot;: {
+                 &quot;track_slug&quot;: &quot;python_basic&quot;,
+                 &quot;label&quot;: &quot;Python&quot;,
+                 &quot;level&quot;: &quot;Basic&quot;,
+                 &quot;skill_unique_id&quot;: &quot;ae7b45738f96&quot;,
+                 &quot;description&quot;: &quot;It covers topics like Scalar Types, Operators and Control Flow, Strings, Collections and Iteration, Modularity, Objects and Types and Classes&quot;
+                 },
+                 &quot;certificates&quot;: [
+                 &quot;Python (Basic)&quot;
+                 ],
+                 &quot;certificate_image&quot;: &quot;https://downloads.hackerrank.com/certificates/1ada3aaf8a85&quot;,
+                 &quot;hacker_name&quot;: &quot;Shashank Sharma&quot;,
+                 &quot;test_unique_id&quot;: &quot;ch1k00qp1cn&quot;,
+                 &quot;kind&quot;: &quot;awarded&quot;,
+                 &quot;hacker_name_updated_at&quot;: null,
+                 &quot;seen_by_user&quot;: true,
+                 &quot;completed_at&quot;: null,
+                 &quot;score&quot;: null,
+                 &quot;alloted_at&quot;: &quot;2020-09-10T17:08:58.000Z&quot;
+             }
+             },
+             {
+             &quot;id&quot;: &quot;fb577f839d0e&quot;,
+             &quot;type&quot;: &quot;test_results&quot;,
+             &quot;links&quot;: {
+                 &quot;self&quot;: &quot;https://www.hackerrank.com/community/v1/test_results/fb577f839d0e&quot;
+             },
+             &quot;attributes&quot;: {
+                 &quot;status&quot;: &quot;test_passed&quot;,
+                 &quot;username&quot;: &quot;shashank21j&quot;,
+                 &quot;unlock_date&quot;: null,
+                 &quot;waived_off&quot;: false,
+                 &quot;certificate&quot;: {
+                 &quot;track_slug&quot;: &quot;problem_solving_advanced&quot;,
+                 &quot;label&quot;: &quot;Problem Solving&quot;,
+                 &quot;level&quot;: &quot;Advanced&quot;,
+                 &quot;skill_unique_id&quot;: &quot;06d0628caa2d&quot;,
+                 &quot;description&quot;: &quot;It covers topics like Data Structures such as Trees, Graph Traversal, using Dynamic Programming and Specialized Algorithms, among others.&quot;
+                 },
+                 &quot;certificates&quot;: [
+                 &quot;Problem Solving (Advanced)&quot;
+                 ],
+                 &quot;certificate_image&quot;: &quot;https://downloads.hackerrank.com/certificates/fb577f839d0e&quot;,
+                 &quot;hacker_name&quot;: &quot;Shashank Sharma&quot;,
+                 &quot;test_unique_id&quot;: &quot;f5c93e180ea8&quot;,
+                 &quot;kind&quot;: &quot;awarded&quot;,
+                 &quot;hacker_name_updated_at&quot;: null,
+                 &quot;seen_by_user&quot;: true,
+                 &quot;completed_at&quot;: null,
+                 &quot;score&quot;: null,
+                 &quot;alloted_at&quot;: &quot;2020-09-15T10:11:04.000Z&quot;
+             }
+             }
+         ]
+         }
+  </code></pre>
+   </details>
+  
+  
+  
+  </li>
+  <li><blockquote>
+  <p><a href="https://www.hackerrank.com/rest/hackers/shashank21j/submission_histories">https://www.hackerrank.com/rest/hackers/shashank21j/submission_histories</a></p>
+  </blockquote>
+   <details close>
+   <summary>JSON DATA</summary>
+  
+  <pre><code>    {&quot;2013-09-13&quot;:1,&quot;2013-09-22&quot;:1,&quot;2013-09-23&quot;:2,&quot;2013-09-25&quot;:1,&quot;2013-09-26&quot;:1,&quot;2013-10-30&quot;:1,&quot;2013-10-31&quot;:5,&quot;2013-11-02&quot;:3,&quot;2013-11-03&quot;:7,&quot;2013-11-04&quot;:6,&quot;2013-11-05&quot;:7,&quot;2013-11-06&quot;:4,&quot;2013-11-08&quot;:11,&quot;2013-11-09&quot;:3,&quot;2013-11-10&quot;:3,&quot;2013-11-11&quot;:2,&quot;2013-11-12&quot;:1,&quot;2013-11-14&quot;:1,&quot;2013-12-02&quot;:1,&quot;2013-12-04&quot;:1,&quot;2013-12-05&quot;:3,&quot;2013-12-09&quot;:14,&quot;2013-12-11&quot;:2,&quot;2013-12-12&quot;:3,&quot;2013-12-13&quot;:8,&quot;2013-12-16&quot;:6}
+  </code></pre>
+   </details>
+  
+  
+  
+  </li>
+  <li><blockquote>
+  <p><a href="https://www.hackerrank.com/rest/hackers/shashank21j/badges">https://www.hackerrank.com/rest/hackers/shashank21j/badges</a></p>
+  </blockquote>
+   <details close>
+   <summary>JSON DATA</summary>
+  
+  <pre><code>{
+  &quot;status&quot;: true,
+  &quot;models&quot;: [
+      {
+      &quot;badge_category&quot;: &quot;HackerBadge::MultiDomain&quot;,
+      &quot;badge_type&quot;: &quot;problem-solving&quot;,
+      &quot;category_name&quot;: null,
+      &quot;badge_name&quot;: &quot;Problem Solving&quot;,
+      &quot;badge_short_name&quot;: null,
+      &quot;total_stars&quot;: 6,
+      &quot;total_points&quot;: null,
+      &quot;url&quot;: &quot;/domains/algorithms&quot;,
+      &quot;solved&quot;: 202,
+      &quot;total_challenges&quot;: 563,
+      &quot;track_total_score&quot;: 0,
+      &quot;hacker_rank&quot;: 1993,
+      &quot;stars&quot;: 6,
+      &quot;level&quot;: 3,
+      &quot;current_points&quot;: 7158.51,
+      &quot;progress_to_next_star&quot;: 1,
+      &quot;upcoming_level&quot;: null
+      },
+      {
+      &quot;badge_category&quot;: &quot;HackerBadge::Domain&quot;,
+      &quot;badge_type&quot;: &quot;cpp&quot;,
+      &quot;category_name&quot;: &quot;Language Proficiency&quot;,
+      &quot;badge_name&quot;: &quot;C++&quot;,
+      &quot;badge_short_name&quot;: &quot;CPP&quot;,
+      &quot;total_stars&quot;: 5,
+      &quot;total_points&quot;: 40,
+      &quot;url&quot;: &quot;/domains/cpp&quot;,
+      &quot;stars&quot;: 1,
+      &quot;level&quot;: 1,
+      &quot;current_points&quot;: 35,
+      &quot;progress_to_next_star&quot;: 0.83,
+      &quot;upcoming_level&quot;: null,
+      &quot;solved&quot;: 3,
+      &quot;total_challenges&quot;: 44,
+      &quot;hacker_rank&quot;: 656976
+      },
+      {
+      &quot;badge_category&quot;: &quot;HackerBadge::Domain&quot;,
+      &quot;badge_type&quot;: &quot;java&quot;,
+      &quot;category_name&quot;: &quot;Language Proficiency&quot;,
+      &quot;badge_name&quot;: &quot;Java&quot;,
+      &quot;badge_short_name&quot;: null,
+      &quot;total_stars&quot;: 5,
+      &quot;total_points&quot;: 150,
+      &quot;url&quot;: &quot;/domains/java&quot;,
+      &quot;stars&quot;: 3,
+      &quot;level&quot;: 2,
+      &quot;current_points&quot;: 88,
+      &quot;progress_to_next_star&quot;: 0.11,
+      &quot;upcoming_level&quot;: null,
+      &quot;solved&quot;: 9,
+      &quot;total_challenges&quot;: 64,
+      &quot;hacker_rank&quot;: 539892
+      },
+      {
+      &quot;badge_category&quot;: &quot;HackerBadge::Domain&quot;,
+      &quot;badge_type&quot;: &quot;python&quot;,
+      &quot;category_name&quot;: &quot;Language Proficiency&quot;,
+      &quot;badge_name&quot;: &quot;Python&quot;,
+      &quot;badge_short_name&quot;: null,
+      &quot;total_stars&quot;: 5,
+      &quot;total_points&quot;: null,
+      &quot;url&quot;: &quot;/domains/python&quot;,
+      &quot;stars&quot;: 5,
+      &quot;level&quot;: 3,
+      &quot;current_points&quot;: 2305,
+      &quot;progress_to_next_star&quot;: 1,
+      &quot;upcoming_level&quot;: null,
+      &quot;solved&quot;: 115,
+      &quot;total_challenges&quot;: 115,
+      &quot;hacker_rank&quot;: 1
+      },
+      {
+      &quot;badge_category&quot;: &quot;HackerBadge::Chapter&quot;,
+      &quot;badge_type&quot;: &quot;30-days-of-code&quot;,
+      &quot;category_name&quot;: &quot;Tutorial&quot;,
+      &quot;badge_name&quot;: &quot;30 Days of Code&quot;,
+      &quot;badge_short_name&quot;: &quot;Days of Code&quot;,
+      &quot;total_stars&quot;: 5,
+      &quot;total_points&quot;: 22,
+      &quot;url&quot;: &quot;/domains/tutorials/30-days-of-code&quot;,
+      &quot;stars&quot;: 3,
+      &quot;level&quot;: 2,
+      &quot;current_points&quot;: 18,
+      &quot;progress_to_next_star&quot;: 0.43,
+      &quot;upcoming_level&quot;: null,
+      &quot;solved&quot;: 18,
+      &quot;total_challenges&quot;: 30
+      },
+      {
+      &quot;badge_category&quot;: &quot;HackerBadge::Chapter&quot;,
+      &quot;badge_type&quot;: &quot;10-days-of-javascript&quot;,
+      &quot;category_name&quot;: &quot;Tutorial&quot;,
+      &quot;badge_name&quot;: &quot;10 Days of JS&quot;,
+      &quot;badge_short_name&quot;: &quot;Days of JS&quot;,
+      &quot;total_stars&quot;: 5,
+      &quot;total_points&quot;: 2,
+      &quot;url&quot;: &quot;/domains/tutorials/10-days-of-javascript&quot;,
+      &quot;stars&quot;: 0,
+      &quot;level&quot;: 0,
+      &quot;current_points&quot;: 0,
+      &quot;progress_to_next_star&quot;: 0,
+      &quot;upcoming_level&quot;: null,
+      &quot;solved&quot;: 0,
+      &quot;total_challenges&quot;: 25
+      },
+      {
+      &quot;badge_category&quot;: &quot;HackerBadge::Chapter&quot;,
+      &quot;badge_type&quot;: &quot;10-days-of-statistics&quot;,
+      &quot;category_name&quot;: &quot;Tutorial&quot;,
+      &quot;badge_name&quot;: &quot;10 Days of Statistics&quot;,
+      &quot;badge_short_name&quot;: &quot;Days of Statistics&quot;,
+      &quot;total_stars&quot;: 5,
+      &quot;total_points&quot;: 3,
+      &quot;url&quot;: &quot;/domains/tutorials/10-days-of-statistics&quot;,
+      &quot;stars&quot;: 0,
+      &quot;level&quot;: 0,
+      &quot;current_points&quot;: 2,
+      &quot;progress_to_next_star&quot;: 0.67,
+      &quot;upcoming_level&quot;: null,
+      &quot;solved&quot;: 2,
+      &quot;total_challenges&quot;: 27
+      },
+      {
+      &quot;badge_category&quot;: &quot;HackerBadge::Domain&quot;,
+      &quot;badge_type&quot;: &quot;sql&quot;,
+      &quot;category_name&quot;: &quot;Specialized Skills&quot;,
+      &quot;badge_name&quot;: &quot;Sql&quot;,
+      &quot;badge_short_name&quot;: null,
+      &quot;total_stars&quot;: 5,
+      &quot;total_points&quot;: 175,
+      &quot;url&quot;: &quot;/domains/sql&quot;,
+      &quot;stars&quot;: 1,
+      &quot;level&quot;: 1,
+      &quot;current_points&quot;: 100,
+      &quot;progress_to_next_star&quot;: 0.21,
+      &quot;upcoming_level&quot;: null,
+      &quot;solved&quot;: 9,
+      &quot;total_challenges&quot;: 58,
+      &quot;hacker_rank&quot;: 1121211
+      },
+      {
+      &quot;badge_category&quot;: &quot;HackerBadge::Domain&quot;,
+      &quot;badge_type&quot;: &quot;c&quot;,
+      &quot;category_name&quot;: &quot;Language Proficiency&quot;,
+      &quot;badge_name&quot;: &quot;C&quot;,
+      &quot;badge_short_name&quot;: &quot;C language&quot;,
+      &quot;total_stars&quot;: 5,
+      &quot;total_points&quot;: 50,
+      &quot;url&quot;: &quot;/domains/c&quot;,
+      &quot;stars&quot;: 1,
+      &quot;level&quot;: 1,
+      &quot;current_points&quot;: 35,
+      &quot;progress_to_next_star&quot;: 0.57,
+      &quot;upcoming_level&quot;: null,
+      &quot;solved&quot;: 5,
+      &quot;total_challenges&quot;: 25,
+      &quot;hacker_rank&quot;: 449567
+      },
+      {
+      &quot;badge_category&quot;: &quot;HackerBadge::Domain&quot;,
+      &quot;badge_type&quot;: &quot;ruby&quot;,
+      &quot;category_name&quot;: &quot;Language Proficiency&quot;,
+      &quot;badge_name&quot;: &quot;Ruby&quot;,
+      &quot;badge_short_name&quot;: null,
+      &quot;total_stars&quot;: 5,
+      &quot;total_points&quot;: 200,
+      &quot;url&quot;: &quot;/domains/ruby&quot;,
+      &quot;stars&quot;: 2,
+      &quot;level&quot;: 1,
+      &quot;current_points&quot;: 195,
+      &quot;progress_to_next_star&quot;: 0.95,
+      &quot;upcoming_level&quot;: null,
+      &quot;solved&quot;: 19,
+      &quot;total_challenges&quot;: 41,
+      &quot;hacker_rank&quot;: 16236
+      }
+  ],
+  &quot;version&quot;: 2
+  }
+  </code></pre>
+   </details></li>
+  <li><blockquote>
+  <p><a href="https://www.hackerrank.com/rest/contests/master/challenges/welcome-to-java/leaderboard?offset=0&limit=20&include_practice=true">https://www.hackerrank.com/rest/contests/master/challenges/welcome-to-java/leaderboard?offset=0&amp;limit=20&amp;include_practice=true</a></p>
+  </blockquote>
+   <details close>
+   <summary>JSON DATA</summary>
+  
+  <pre><code>    {
+      &quot;models&quot;: [
+          {
+          &quot;hacker_id&quot;: 495142,
+          &quot;language&quot;: &quot;java&quot;,
+          &quot;worst_testcase_time&quot;: null,
+          &quot;rank&quot;: 1,
+          &quot;score&quot;: 3,
+          &quot;time_taken&quot;: 1431438100,
+          &quot;index&quot;: 0,
+          &quot;hacker&quot;: &quot;thebho&quot;,
+          &quot;avatar&quot;: &quot;https://hrcdn.net/s3_pub/hr-avatars/e68e0c90-4139-4bf1-bbd0-1c61454b7f38/150x150.png&quot;,
+          &quot;country&quot;: &quot;United States&quot;,
+          &quot;school&quot;: &quot;Missouri State University, Springfield&quot;,
+          &quot;company&quot;: null,
+          &quot;is_multiple_contest&quot;: false,
+          &quot;level&quot;: 4
+          },
+          {
+          &quot;hacker_id&quot;: 339048,
+          &quot;language&quot;: &quot;java&quot;,
+          &quot;worst_testcase_time&quot;: null,
+          &quot;rank&quot;: 1,
+          &quot;score&quot;: 3,
+          &quot;time_taken&quot;: 1431438150,
+          &quot;index&quot;: 1,
+          &quot;hacker&quot;: &quot;inoryy&quot;,
+          &quot;avatar&quot;: &quot;https://secure.gravatar.com/avatar/fed17a526ec9bee24fa27412d156b8df?d=https%3A%2F%2Fd1ce3iv5vajdy.cloudfront.net%2Fhackerrank%2Fassets%2Fgravatar.jpg&amp;s=150&quot;,
+          &quot;country&quot;: &quot;Estonia&quot;,
+          &quot;school&quot;: &quot;University of Tartu, Tartu&quot;,
+          &quot;company&quot;: &quot;&quot;,
+          &quot;is_multiple_contest&quot;: false,
+          &quot;level&quot;: 4
+          },
+          {
+          &quot;hacker_id&quot;: 490918,
+          &quot;language&quot;: &quot;java8&quot;,
+          &quot;worst_testcase_time&quot;: null,
+          &quot;rank&quot;: 1,
+          &quot;score&quot;: 3,
+          &quot;time_taken&quot;: 1431438397,
+          &quot;index&quot;: 2,
+          &quot;hacker&quot;: &quot;sonu22kumar22&quot;,
+          &quot;avatar&quot;: &quot;https://hrcdn.net/s3_pub/hr-avatars/adf16e68-c356-4dae-9262-f76c384b824c/150x150.png&quot;,
+          &quot;country&quot;: &quot;India&quot;,
+          &quot;school&quot;: &quot;KIIT, Bhubaneswar (Kalinga Institute of Industrial Technology)&quot;,
+          &quot;company&quot;: &quot;&quot;,
+          &quot;is_multiple_contest&quot;: false,
+          &quot;level&quot;: 4
+          },
+          {
+          &quot;hacker_id&quot;: 329138,
+          &quot;language&quot;: &quot;java&quot;,
+          &quot;worst_testcase_time&quot;: null,
+          &quot;rank&quot;: 1,
+          &quot;score&quot;: 3,
+          &quot;time_taken&quot;: 1431438887,
+          &quot;index&quot;: 3,
+          &quot;hacker&quot;: &quot;pkay1947&quot;,
+          &quot;avatar&quot;: &quot;https://hrcdn.net/s3_pub/hr-avatars/d12117a7-9295-415c-9eb7-e3dca0be38b1/150x150.png&quot;,
+          &quot;country&quot;: &quot;United Kingdom&quot;,
+          &quot;school&quot;: &quot;Auburn University at Montgomery, Montgomery&quot;,
+          &quot;company&quot;: &quot;Up And Runing&quot;,
+          &quot;timestamp&quot;: 1572202875,
+          &quot;submitted_at&quot;: &quot;almost 4 years&quot;,
+          &quot;is_multiple_contest&quot;: false,
+          &quot;level&quot;: 3
+          },
+          {
+          &quot;hacker_id&quot;: 439117,
+          &quot;language&quot;: &quot;java8&quot;,
+          &quot;worst_testcase_time&quot;: null,
+          &quot;rank&quot;: 1,
+          &quot;score&quot;: 3,
+          &quot;time_taken&quot;: 1431440217,
+          &quot;index&quot;: 4,
+          &quot;hacker&quot;: &quot;technerdmugen&quot;,
+          &quot;avatar&quot;: &quot;https://hrcdn.net/s3_pub/hr-avatars/050c3644-ae2e-4d27-ae17-7cb438779d18/150x150.png&quot;,
+          &quot;country&quot;: &quot;India&quot;,
+          &quot;school&quot;: &quot;&quot;,
+          &quot;company&quot;: &quot;&quot;,
+          &quot;is_multiple_contest&quot;: false,
+          &quot;level&quot;: 5
+          },
+          {
+          &quot;hacker_id&quot;: 282263,
+          &quot;language&quot;: &quot;java&quot;,
+          &quot;worst_testcase_time&quot;: null,
+          &quot;rank&quot;: 1,
+          &quot;score&quot;: 3,
+          &quot;time_taken&quot;: 1431440507,
+          &quot;index&quot;: 5,
+          &quot;hacker&quot;: &quot;anmolyadav&quot;,
+          &quot;avatar&quot;: &quot;https://d1ce3iv5vajdy.cloudfront.net/hackerrank/assets/gravatar.jpg&quot;,
+          &quot;country&quot;: &quot;India&quot;,
+          &quot;school&quot;: &quot;Ryan International School&quot;,
+          &quot;company&quot;: &quot;Microsoft&quot;,
+          &quot;is_multiple_contest&quot;: false,
+          &quot;level&quot;: 4
+          },
+          {
+          &quot;hacker_id&quot;: 510416,
+          &quot;language&quot;: &quot;java&quot;,
+          &quot;worst_testcase_time&quot;: null,
+          &quot;rank&quot;: 1,
+          &quot;score&quot;: 3,
+          &quot;time_taken&quot;: 1431440605,
+          &quot;index&quot;: 6,
+          &quot;hacker&quot;: &quot;Ak_333&quot;,
+          &quot;avatar&quot;: &quot;https://hrcdn.net/s3_pub/hr-avatars/9c5a137e-a74e-47eb-9214-0e7800151662/150x150.png&quot;,
+          &quot;country&quot;: &quot;India&quot;,
+          &quot;school&quot;: &quot;&quot;,
+          &quot;company&quot;: &quot;&quot;,
+          &quot;is_multiple_contest&quot;: false,
+          &quot;level&quot;: 5
+          },
+          {
+          &quot;hacker_id&quot;: 475859,
+          &quot;language&quot;: &quot;java&quot;,
+          &quot;worst_testcase_time&quot;: null,
+          &quot;rank&quot;: 1,
+          &quot;score&quot;: 3,
+          &quot;time_taken&quot;: 1431440837,
+          &quot;index&quot;: 7,
+          &quot;hacker&quot;: &quot;hemang_tailor&quot;,
+          &quot;avatar&quot;: &quot;https://hrcdn.net/s3_pub/hr-avatars/bc8adcc3-451c-47a0-97a0-63db4f594497/150x150.png&quot;,
+          &quot;country&quot;: &quot;India&quot;,
+          &quot;school&quot;: &quot;K. J. Somaiya College of Engineering, Mumbai (KJSCE)&quot;,
+          &quot;company&quot;: &quot;Germin8&quot;,
+          &quot;timestamp&quot;: 1586855842,
+          &quot;submitted_at&quot;: &quot;over 3 years&quot;,
+          &quot;is_multiple_contest&quot;: false,
+          &quot;level&quot;: 5
+          },
+          {
+          &quot;hacker_id&quot;: 270216,
+          &quot;language&quot;: &quot;java&quot;,
+          &quot;worst_testcase_time&quot;: null,
+          &quot;rank&quot;: 1,
+          &quot;score&quot;: 3,
+          &quot;time_taken&quot;: 1431440860,
+          &quot;index&quot;: 8,
+          &quot;hacker&quot;: &quot;tejarajana&quot;,
+          &quot;avatar&quot;: &quot;https://d1ce3iv5vajdy.cloudfront.net/hackerrank/assets/gravatar.jpg&quot;,
+          &quot;country&quot;: &quot;India&quot;,
+          &quot;school&quot;: &quot;JNTUK UCE Vizianagaram&quot;,
+          &quot;company&quot;: null,
+          &quot;timestamp&quot;: 1610983688,
+          &quot;submitted_at&quot;: &quot;over 2 years&quot;,
+          &quot;is_multiple_contest&quot;: false,
+          &quot;level&quot;: 5
+          },
+          {
+          &quot;hacker_id&quot;: 407700,
+          &quot;language&quot;: &quot;java&quot;,
+          &quot;worst_testcase_time&quot;: null,
+          &quot;rank&quot;: 1,
+          &quot;score&quot;: 3,
+          &quot;time_taken&quot;: 1431440866,
+          &quot;index&quot;: 9,
+          &quot;hacker&quot;: &quot;SourabhPatro&quot;,
+          &quot;avatar&quot;: &quot;https://hrcdn.net/s3_pub/hr-avatars/3c8b5f23-c892-4527-b5f1-d0b5fae1d0fe/150x150.png&quot;,
+          &quot;country&quot;: &quot;United States&quot;,
+          &quot;school&quot;: &quot;University of Cincinnati&quot;,
+          &quot;company&quot;: null,
+          &quot;timestamp&quot;: 1676002494,
+          &quot;submitted_at&quot;: &quot;7 months&quot;,
+          &quot;is_multiple_contest&quot;: false,
+          &quot;level&quot;: 3
+          },
+          {
+          &quot;hacker_id&quot;: 320346,
+          &quot;language&quot;: &quot;java&quot;,
+          &quot;worst_testcase_time&quot;: null,
+          &quot;rank&quot;: 1,
+          &quot;score&quot;: 3,
+          &quot;time_taken&quot;: 1431441232,
+          &quot;index&quot;: 10,
+          &quot;hacker&quot;: &quot;geek_sandeep&quot;,
+          &quot;avatar&quot;: &quot;https://hrcdn.net/s3_pub/hr-avatars/b392cdc2-4505-444f-a6e2-d612b1f37736/150x150.png&quot;,
+          &quot;country&quot;: &quot;India&quot;,
+          &quot;school&quot;: &quot;Galgotias College of Engineering and Technology, Greater Noida&quot;,
+          &quot;company&quot;: &quot;Samsung Electronics&quot;,
+          &quot;is_multiple_contest&quot;: false,
+          &quot;level&quot;: 5
+          },
+          {
+          &quot;hacker_id&quot;: 510090,
+          &quot;language&quot;: &quot;java&quot;,
+          &quot;worst_testcase_time&quot;: null,
+          &quot;rank&quot;: 1,
+          &quot;score&quot;: 3,
+          &quot;time_taken&quot;: 1431441353,
+          &quot;index&quot;: 11,
+          &quot;hacker&quot;: &quot;JasvinderAnand&quot;,
+          &quot;avatar&quot;: &quot;https://d1ce3iv5vajdy.cloudfront.net/hackerrank/assets/gravatar.jpg&quot;,
+          &quot;country&quot;: &quot;India&quot;,
+          &quot;school&quot;: null,
+          &quot;company&quot;: null,
+          &quot;is_multiple_contest&quot;: false,
+          &quot;level&quot;: 5
+          },
+          {
+          &quot;hacker_id&quot;: 182335,
+          &quot;language&quot;: &quot;java&quot;,
+          &quot;worst_testcase_time&quot;: null,
+          &quot;rank&quot;: 1,
+          &quot;score&quot;: 3,
+          &quot;time_taken&quot;: 1431441388,
+          &quot;index&quot;: 12,
+          &quot;hacker&quot;: &quot;shiv4nsh&quot;,
+          &quot;avatar&quot;: &quot;https://hrcdn.net/s3_pub/hr-avatars/1f0a1598-80ee-4a36-82dd-71ae6712104f/150x150.png&quot;,
+          &quot;country&quot;: &quot;India&quot;,
+          &quot;school&quot;: &quot;SRMSCET&quot;,
+          &quot;company&quot;: &quot;Knoldus&quot;,
+          &quot;timestamp&quot;: 1649178187,
+          &quot;submitted_at&quot;: &quot;over 1 year&quot;,
+          &quot;is_multiple_contest&quot;: false,
+          &quot;level&quot;: 5
+          },
+          {
+          &quot;hacker_id&quot;: 502086,
+          &quot;language&quot;: &quot;java&quot;,
+          &quot;worst_testcase_time&quot;: null,
+          &quot;rank&quot;: 1,
+          &quot;score&quot;: 3,
+          &quot;time_taken&quot;: 1431441636,
+          &quot;index&quot;: 13,
+          &quot;hacker&quot;: &quot;mmsarom&quot;,
+          &quot;avatar&quot;: &quot;https://hrcdn.net/s3_pub/hr-avatars/cb8ffcc3-e385-42a2-8399-22be7d93d6f9/150x150.png&quot;,
+          &quot;country&quot;: &quot;Australia&quot;,
+          &quot;school&quot;: &quot;University of Sydney, Sydney&quot;,
+          &quot;company&quot;: &quot;Deloitte&quot;,
+          &quot;timestamp&quot;: 1687439104,
+          &quot;submitted_at&quot;: &quot;3 months&quot;,
+          &quot;is_multiple_contest&quot;: false,
+          &quot;level&quot;: 5
+          },
+          {
+          &quot;hacker_id&quot;: 509002,
+          &quot;language&quot;: &quot;java&quot;,
+          &quot;worst_testcase_time&quot;: null,
+          &quot;rank&quot;: 1,
+          &quot;score&quot;: 3,
+          &quot;time_taken&quot;: 1431442008,
+          &quot;index&quot;: 14,
+          &quot;hacker&quot;: &quot;varshan&quot;,
+          &quot;avatar&quot;: &quot;https://d1ce3iv5vajdy.cloudfront.net/hackerrank/assets/gravatar.jpg&quot;,
+          &quot;country&quot;: &quot;India&quot;,
+          &quot;school&quot;: null,
+          &quot;company&quot;: null,
+          &quot;is_multiple_contest&quot;: false,
+          &quot;level&quot;: 5
+          },
+          {
+          &quot;hacker_id&quot;: 212247,
+          &quot;language&quot;: &quot;java&quot;,
+          &quot;worst_testcase_time&quot;: null,
+          &quot;rank&quot;: 1,
+          &quot;score&quot;: 3,
+          &quot;time_taken&quot;: 1431442202,
+          &quot;index&quot;: 15,
+          &quot;hacker&quot;: &quot;SarathKumar19&quot;,
+          &quot;avatar&quot;: &quot;https://hrcdn.net/s3_pub/hr-avatars/4647642c-2e61-474a-9762-f34d851815eb/150x150.png&quot;,
+          &quot;country&quot;: &quot;India&quot;,
+          &quot;school&quot;: &quot;Sri Krishna College of Engineering and Technology&quot;,
+          &quot;company&quot;: &quot;SKCET, Coimbatore&quot;,
+          &quot;timestamp&quot;: 1648116009,
+          &quot;submitted_at&quot;: &quot;over 1 year&quot;,
+          &quot;is_multiple_contest&quot;: false,
+          &quot;level&quot;: 5
+          },
+          {
+          &quot;hacker_id&quot;: 259412,
+          &quot;language&quot;: &quot;java&quot;,
+          &quot;worst_testcase_time&quot;: null,
+          &quot;rank&quot;: 1,
+          &quot;score&quot;: 3,
+          &quot;time_taken&quot;: 1431442590,
+          &quot;index&quot;: 16,
+          &quot;hacker&quot;: &quot;LokeshSingal&quot;,
+          &quot;avatar&quot;: &quot;https://hrcdn.net/s3_pub/hr-avatars/689dac28-ee78-4a45-86c7-984b81b1c875/150x150.png&quot;,
+          &quot;country&quot;: &quot;India&quot;,
+          &quot;school&quot;: &quot;DAIICT, Gandhinagar (Dhirubhai Ambani Institute of Information and Communication Technology)&quot;,
+          &quot;company&quot;: &quot;&quot;,
+          &quot;is_multiple_contest&quot;: false,
+          &quot;level&quot;: 4
+          },
+          {
+          &quot;hacker_id&quot;: 506949,
+          &quot;language&quot;: &quot;java&quot;,
+          &quot;worst_testcase_time&quot;: null,
+          &quot;rank&quot;: 1,
+          &quot;score&quot;: 3,
+          &quot;time_taken&quot;: 1431442628,
+          &quot;index&quot;: 17,
+          &quot;hacker&quot;: &quot;honunu&quot;,
+          &quot;avatar&quot;: &quot;https://d1ce3iv5vajdy.cloudfront.net/hackerrank/assets/gravatar.jpg&quot;,
+          &quot;country&quot;: &quot;United States&quot;,
+          &quot;school&quot;: null,
+          &quot;company&quot;: null,
+          &quot;is_multiple_contest&quot;: false,
+          &quot;level&quot;: 5
+          },
+          {
+          &quot;hacker_id&quot;: 78885,
+          &quot;language&quot;: &quot;java&quot;,
+          &quot;worst_testcase_time&quot;: null,
+          &quot;rank&quot;: 1,
+          &quot;score&quot;: 3,
+          &quot;time_taken&quot;: 1431443096,
+          &quot;index&quot;: 18,
+          &quot;hacker&quot;: &quot;TKing&quot;,
+          &quot;avatar&quot;: &quot;https://d1ce3iv5vajdy.cloudfront.net/hackerrank/assets/gravatar.jpg&quot;,
+          &quot;country&quot;: &quot;United States&quot;,
+          &quot;school&quot;: &quot;Bishop Heber College, Trichy&quot;,
+          &quot;company&quot;: &quot;World Wide Technology&quot;,
+          &quot;timestamp&quot;: 1593792572,
+          &quot;submitted_at&quot;: &quot;about 3 years&quot;,
+          &quot;is_multiple_contest&quot;: false,
+          &quot;level&quot;: 2
+          },
+          {
+          &quot;hacker_id&quot;: 287917,
+          &quot;language&quot;: &quot;java8&quot;,
+          &quot;worst_testcase_time&quot;: null,
+          &quot;rank&quot;: 1,
+          &quot;score&quot;: 3,
+          &quot;time_taken&quot;: 1431443158,
+          &quot;index&quot;: 19,
+          &quot;hacker&quot;: &quot;amarlearning&quot;,
+          &quot;avatar&quot;: &quot;https://hrcdn.net/s3_pub/hr-avatars/694447b7-5815-4d06-8ac7-15266af5d8ca/150x150.png&quot;,
+          &quot;country&quot;: &quot;India&quot;,
+          &quot;school&quot;: &quot;Shri Ram Swroop Memorial College Of Engineering &amp; Management&quot;,
+          &quot;company&quot;: &quot;Tata Consultancy Services&quot;,
+          &quot;timestamp&quot;: 1600342032,
+          &quot;submitted_at&quot;: &quot;about 3 years&quot;,
+          &quot;is_multiple_contest&quot;: false,
+          &quot;level&quot;: 5
+          }
+      ],
+      &quot;page&quot;: 1,
+      &quot;total&quot;: 1816193,
+      &quot;current_hacker&quot;: {},
+      &quot;available&quot;: true,
+      &quot;self_display&quot;: true
+      }
+  
+  </code></pre>
+   </details>
+   
+  
+   <details close>
+   <summary>IMAGE DATA</summary>
+  
+  <p> <img src="https://img001.prntscr.com/file/img001/64AdMzNTRk61azKoGQ-ZdQ.jpeg" alt="img"></p>
+   </details></li>
+  </ol>
+  
+
+</body>
+</html>
